@@ -13,16 +13,7 @@
         </repository>
     </repositories>
     <dependencies>
-        <dependency>
-            <groupId>unknown.binary</groupId>
-            <artifactId>AbsoluteLayout</artifactId>
-            <version>SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>unknown.binary</groupId>
-            <artifactId>jsoup-1.14.3</artifactId>
-            <version>SNAPSHOT</version>
-        </dependency>
+        
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
