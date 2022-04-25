@@ -2,7 +2,7 @@
 The GMS (Gym Management System) project is the software program that tracks, maintains, and manages all the member and staff data, entirely constructed at the administrative level, only the administration has access, it was developed in Java Programming using NetBeansIDE, JFrame, and MySQL Database. That project will assist gym managers to manage their customers, and staffs. 
 - Front-end: Friendly user-interface with Java Swing  
 - Back-end: Handled by the SQL database via JDBC API to communicate with MySQL.
-- Administrative level: provide username and password {admin,admin}
+- Administrative level: provided username and password {admin,admin}
 - Record of Member, Payment, and Trainer
 ## System Requirements
 To execute the below project, you will need the following requirements:
