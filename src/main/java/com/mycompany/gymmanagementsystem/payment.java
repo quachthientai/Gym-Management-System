@@ -426,7 +426,6 @@ public class payment extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void searchBtnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_searchBtnMouseClicked
-        // TODO add your handling code here:
         int searchid = 0;
         String id = searchField.getText();
         DefaultTableModel model  =(DefaultTableModel)jTable1.getModel();
@@ -479,7 +478,6 @@ public class payment extends javax.swing.JFrame {
     }//GEN-LAST:event_searchBtnMouseClicked
 
     private void resetBtnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_resetBtnMouseClicked
-        // TODO add your handling code here:
         DefaultTableModel model  =(DefaultTableModel)jTable1.getModel();
         model.setRowCount(0);
         ID.setText("");
@@ -522,7 +520,6 @@ public class payment extends javax.swing.JFrame {
     }//GEN-LAST:event_resetBtnMouseClicked
 
     private void payBtnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_payBtnMouseClicked
-        // TODO add your handling code here:
         String id = ID.getText();
         String payDate = today.getText();
         
@@ -573,7 +570,6 @@ public class payment extends javax.swing.JFrame {
     }//GEN-LAST:event_payBtnMouseClicked
 
     private void exitBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitBtnActionPerformed
-        // TODO add your handling code here:
         int exit = JOptionPane.showConfirmDialog(null, "Exit to Dashboard?","Select",JOptionPane.YES_NO_CANCEL_OPTION);
         if (exit == 0){
             setVisible(false);

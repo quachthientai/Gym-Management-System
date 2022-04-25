@@ -139,7 +139,6 @@ public class home extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void logOutMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_logOutMouseClicked
-        // TODO add your handling code here:
         int logout = JOptionPane.showConfirmDialog(null, "Log out?", "Select",JOptionPane.YES_NO_CANCEL_OPTION);
         if (logout==0){
             setVisible(false);
@@ -149,31 +148,26 @@ public class home extends javax.swing.JFrame {
     }//GEN-LAST:event_logOutMouseClicked
 
     private void addMemberMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addMemberMouseClicked
-        // TODO add your handling code here:
         setVisible(false);
         new newMember().setVisible(true);
     }//GEN-LAST:event_addMemberMouseClicked
 
     private void editMemberMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_editMemberMouseClicked
-        // TODO add your handling code here:
         setVisible(false);
         new editMember().setVisible(true);
     }//GEN-LAST:event_editMemberMouseClicked
 
     private void trainersMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_trainersMouseClicked
-        // TODO add your handling code here:
         setVisible(false);
         new trainer().setVisible(true);
     }//GEN-LAST:event_trainersMouseClicked
 
     private void paymentsMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_paymentsMouseClicked
-        // TODO add your handling code here:
         setVisible(false);
         new memberList().setVisible(true);
     }//GEN-LAST:event_paymentsMouseClicked
 
     private void payments1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_payments1MouseClicked
-        // TODO add your handling code here:
         setVisible(false);
         new payment().setVisible(true);
     }//GEN-LAST:event_payments1MouseClicked

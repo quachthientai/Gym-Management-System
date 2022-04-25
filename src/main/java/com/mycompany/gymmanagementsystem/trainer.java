@@ -393,7 +393,6 @@ public class trainer extends javax.swing.JFrame {
     }//GEN-LAST:event_addBtnActionPerformed
 
     private void deleteBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteBtnActionPerformed
-        // TODO add your handling code here:
         int delete = JOptionPane.showConfirmDialog(null,"Do you want to delete","Select",JOptionPane.YES_NO_CANCEL_OPTION);
         
         if (delete == 0){
@@ -428,7 +427,6 @@ public class trainer extends javax.swing.JFrame {
     }//GEN-LAST:event_deleteBtnActionPerformed
 
     private void resetBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetBtnActionPerformed
-        // TODO add your handling code here:
         DefaultTableModel model  =(DefaultTableModel)jTable1.getModel();
         model.setRowCount(0);
         
@@ -453,7 +451,6 @@ public class trainer extends javax.swing.JFrame {
     }//GEN-LAST:event_resetBtnActionPerformed
 
     private void updateBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateBtnActionPerformed
-        // TODO add your handling code here:
         
         String id = trainerID.getText().toString();
         String name = trainerName.getText().toString();
@@ -502,7 +499,6 @@ public class trainer extends javax.swing.JFrame {
     }//GEN-LAST:event_updateBtnActionPerformed
 
     private void searchBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchBtnActionPerformed
-        // TODO add your handling code here:
         int searchid = 0;
         String id = "00" +idSearch.getText();
         DefaultTableModel model  =(DefaultTableModel)jTable1.getModel();
@@ -535,7 +531,6 @@ public class trainer extends javax.swing.JFrame {
     }//GEN-LAST:event_searchBtnActionPerformed
 
     private void exitBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitBtnActionPerformed
-        // TODO add your handling code here:
         int exit = JOptionPane.showConfirmDialog(null, "Exit to Dashboard?","Select",JOptionPane.YES_NO_CANCEL_OPTION);
         if (exit == 0){
             setVisible(false);

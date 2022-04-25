@@ -491,7 +491,6 @@ public class newMember extends javax.swing.JFrame {
         }
     }
     private void resetBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetBtnActionPerformed
-        // TODO add your handling code here:
         firstName.setText("");
         lastName.setText("");
         phoneNums.setText("");
@@ -502,7 +501,6 @@ public class newMember extends javax.swing.JFrame {
     }//GEN-LAST:event_resetBtnActionPerformed
 
     private void exitBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitBtnActionPerformed
-        // TODO add your handling code here:
         int exit = JOptionPane.showConfirmDialog(null, "Exit to Dashboard?","Select",JOptionPane.YES_NO_CANCEL_OPTION);
         if (exit == 0){
             setVisible(false);
@@ -511,7 +509,6 @@ public class newMember extends javax.swing.JFrame {
     }//GEN-LAST:event_exitBtnActionPerformed
 
     private void memberTypeItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_memberTypeItemStateChanged
-        // TODO add your handling code here:
         String memType = (String)memberType.getSelectedItem();
         if (memType.equals("Basic")){
             amountPay.setText("9.99");
@@ -523,7 +520,6 @@ public class newMember extends javax.swing.JFrame {
     }//GEN-LAST:event_memberTypeItemStateChanged
 
     private void memberTypeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_memberTypeActionPerformed
-        // TODO add your handling code here:
         String memType = (String)memberType.getSelectedItem();
         if (memType.equals("Basic")){
             trainerList.setVisible(false);
