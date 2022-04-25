@@ -28,10 +28,11 @@
         </dependency>
         
         <dependency>
-            <groupId>unknown.binary</groupId>
-            <artifactId>jcalendar-1.4</artifactId>
-            <version>SNAPSHOT</version>
+            <groupId>com.toedter</groupId>
+            <artifactId>jcalendar</artifactId>
+            <version>1.4</version>
         </dependency>
+
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
